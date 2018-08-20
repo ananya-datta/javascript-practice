@@ -1,0 +1,45 @@
+body{
+	background-color: #b3b3cc;
+}
+.movie_block{
+  margin-top:25px;
+  margin-left:30px;
+  width:300px; 
+  height:400px;
+  float: left;
+  overflow-y: scroll;
+  box-shadow: 5px 5px 2px grey;
+  border-radius:10px; 
+  background: linear-gradient(to top left, #ffffcc 0%, #ffffff 60%);
+}
+.movie_img{
+	margin-left:30px;
+	width:130px; 
+	height:180px;
+}
+.desc_complete_block{
+	margin-left:30px;
+	width:240px;
+	height:auto;
+	line-height: 1.2em;
+	
+}
+.desc_txt{
+	overflow:hidden; height:20px;
+}
+.checked {
+    color: orange;
+}
+.moreless_button{
+	text-decoration: none;
+}
+label{
+	color:blue;
+	display:inline-block;
+	margin-left:30px;
+	width:240px;
+	
+}
+span{
+	color:black;
+}
